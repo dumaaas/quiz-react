@@ -1,0 +1,148 @@
+.Main {}
+
+.terminal-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 10%;
+    animation: fadeIn 1.5s forwards;
+    opacity: 0;
+}
+
+.terminal-top {
+    background-color: #4F4F4F;
+    height: 35px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.terminal-bot {
+    background-color: #1E1E1E;
+    height: 500px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-top: 7px;
+}
+
+.terminal-top .top-left {
+    margin-left: 10px;
+}
+
+.terminal-top .top-mid {
+    color: #1E1E1E;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 8px;
+    display: flex;
+    animation: fadeIn 1s 1.3s forwards;
+    opacity: 0;
+}
+
+.terminal-top .top-mid .house {
+    font-size: 20px !important;
+    margin-right: 7px;
+}
+
+.last-login {
+    animation: fadeIn 1.5s 2s forwards;
+    opacity: 0;
+}
+
+.terminal-msg {
+    animation: fadeIn 1.5s 3.5s forwards;
+    opacity: 0;
+}
+
+.circle {
+    width: 21px;
+    height: 21px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+.red {
+    background-color: #FF5B52;
+    animation: fadeIn 1s 0.5s forwards;
+    opacity: 0;
+}
+
+.green {
+    background-color: #51C22A;
+    animation: fadeIn 1s 0.9s forwards;
+    opacity: 0;
+}
+
+.yellow {
+    background-color: #E6C027;
+    animation: fadeIn 1s 0.7s forwards;
+    opacity: 0;
+}
+
+.terminal-prompt {
+    color: white;
+    font-size: 17px;
+    padding-left: 10px;
+    font-weight: 300;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.terminal-text {
+    display: flex;
+    justify-content: start;
+    animation: fadeIn 1.5s 5s forwards;
+    opacity: 0;
+
+}
+
+.pl-7 {
+    padding-left: 7px;
+}
+
+@keyframes fadeIn {
+
+    to {
+        opacity: 1;
+    }
+}
+
+.typewriter {
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    width: 0;
+    animation:
+        typing 3.5s 6s steps(40, end) forwards,
+        blink-caret .75s step-end infinite;
+
+}
+
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 240px
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange;
+    }
+}

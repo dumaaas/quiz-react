@@ -97,6 +97,24 @@ const Quiz = () => {
         setGameState("main");
     }
 
+    //Show Yes/No and hide giveUp btn when we click on giveUp btn
+    const areYouSure = () => {
+        var modal = document.getElementsByClassName("terminal-giveUp");
+        document.getElementById("giveUp-section").style.display = "none";
+        for(var i=0; i<modal.length; i++) {
+            modal[i].style.display = "flex";
+        }
+    }
+
+    //Hide Yes/No and show giveUp btn when we click on No btn
+    const cancel = () => {
+        var modal = document.getElementsByClassName("terminal-giveUp");
+        document.getElementById("giveUp-section").style.display = "flex";
+        for(var i=0; i<modal.length; i++) {
+            modal[i].style.display = "none";
+        }
+    }
+
     //if we reached last question change path for next question from /Question_? to /End
     if(questionCounter<10) {
         lastQuestion = `Question_${questionCounter+1}`;
@@ -167,9 +185,21 @@ const Quiz = () => {
                     <button id="nextBtn" onClick={() => { nextQuestion(); }} className="startBtn button-transition"> {questionCounter < 10 ? 'Next question' : 'End quiz'}</button>
                 </div>
                 {/* Give up button */}
-                <div className="mt-10 terminal-prompt terminal-text terminal-start">
+                <div id="giveUp-section" className="mt-10 terminal-prompt terminal-text terminal-start fadeIn">
                     <p className="terminal-green">root@fsociety:~/Mr_Robot/Quiz/Give_Up{">"}</p>
-                    <button id="giveUpBtn" onClick={() => { restartQuiz(); }} className="giveUpBtn giveUp-transition">Give up</button>
+                    <button id="giveUpBtn" onClick={() => { areYouSure(); }} className="giveUpBtn giveUp-transition">Give up</button>
+                </div>
+                <div className="fadeIn delay-0_3 mt-10 terminal-prompt terminal-text terminal-start terminal-giveUp">
+                    <p className="terminal-green">root@fsociety:~/Mr_Robot/Quiz/Give_Up{">"}</p>
+                    <p className="terminal-prompt terminal-msg">Are you sure?</p>
+                </div>
+                <div className="fadeIn delay-0_5 mt-10 terminal-prompt terminal-text terminal-start terminal-giveUp">
+                    <p className="terminal-green">root@fsociety:~/Mr_Robot/Quiz/Give_Up/Yes{">"}</p>
+                    <button onClick={() => { restartQuiz(); }} className="giveUpBtn giveUp-transition">Yes</button>
+                </div>
+                <div className="fadeIn delay-0_7 mt-10 terminal-prompt terminal-text terminal-start terminal-giveUp">
+                    <p className="terminal-green">root@fsociety:~/Mr_Robot/Quiz/Give_Up/No{">"}</p>
+                    <button onClick={() => { cancel(); }} className="startBtn giveUp-transition">No</button>
                 </div>
                 {/* Hidden hint for one of the questions */}
                 <div className="queens">

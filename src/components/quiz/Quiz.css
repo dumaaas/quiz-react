@@ -18,6 +18,10 @@
     color: #1E1E1E !important;
 }
 
+.terminal-giveUp {
+    display: none;
+}
+
 .queens {
     display: none;
 }

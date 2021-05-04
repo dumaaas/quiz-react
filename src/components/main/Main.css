@@ -11,6 +11,10 @@
     opacity: 0;
 }
 
+.delay-0_3 {
+    animation-delay: 0.3s;
+}
+
 .delay-0_5 {
     animation-delay: 0.5s;
 }
@@ -61,12 +65,12 @@
     animation-delay: 5.5s;
 }
 
-.delay-12 {
-    animation-delay: 12s;
+.delay-10 {
+    animation-delay: 10s;
 }
 
-.delay-12_5 {
-    animation-delay: 12.5s;
+.delay-10_5 {
+    animation-delay: 10.5s;
 }
 
 .terminal-top {

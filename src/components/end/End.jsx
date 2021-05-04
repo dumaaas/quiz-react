@@ -9,10 +9,10 @@ const End = () => {
     const { score, setScore } = useContext(QuizContext);
     const { counter, setCounter } = useContext(QuizContext);
 
-    var time = 60-counter;
+    var time = 240-counter;
     var result;
-    if (time<60) {
-        result = `${time} seconds`;
+    if (time<240) {
+        result = `your time: ${time} seconds`;
     } else {
         result = "you didn't finish on time."
     }
@@ -26,11 +26,11 @@ const End = () => {
 
     const backOnMain = () => {
         setScore(0);
-        setCounter(60);
+        setCounter(240);
         setGameState("main");
     }
 
-    return <div className="End">
+    return <div className="End fadeIn delay-0_3">
         <div className="terminal-wrapper">
             <div className="terminal-top ">
                 <div className="top-left">

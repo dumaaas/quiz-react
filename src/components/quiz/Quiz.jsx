@@ -75,7 +75,7 @@ const Quiz = () => {
                     btns[i].style.background = "transparent";
                 }
                 document.getElementById('nextBtn').setAttribute("disabled", "disabled");
-            }, 2500)
+            }, 4000)
 
         } else {
             setTimeout(function () {
@@ -84,13 +84,13 @@ const Quiz = () => {
                 if (questionCounter == 10) {
                     setGameState("end");
                 }
-            }, 2500)
+            }, 4000)
         }
     }
 
     const restartQuiz = () => {
         setScore(0);
-        setCounter(60);
+        setCounter(240);
         setGameState("main");
     }
 
@@ -101,7 +101,7 @@ const Quiz = () => {
         lastQuestion = "End";
     }
 
-    return <div className="Quiz fadeIn">
+    return <div className="Quiz fadeIn delay-0_3">
         <div className="terminal-wrapper">
             <div className="terminal-top ">
                 <div className="top-left">

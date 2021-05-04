@@ -63,8 +63,8 @@ const Main = () => {
                     <p className="typewriter pl-7">Hey, why don't you start?</p>
                 </div>
                 <div className="mt-10 terminal-prompt terminal-text terminal-start">
-                    <p className="terminal-green fadeIn delay-12">root@fsociety:~/Mr_Robot/Quiz{">"}</p>
-                    <button onClick={() => { setGameState("quiz"); }} className="fadeIn delay-12_5 startBtn button-transition">Start</button>
+                    <p className="terminal-green fadeIn delay-10">root@fsociety:~/Mr_Robot/Quiz{">"}</p>
+                    <button onClick={() => { setGameState("quiz"); }} className="fadeIn delay-10_5 startBtn button-transition">Start</button>
                 </div>
 
             </div>

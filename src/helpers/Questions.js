@@ -17,7 +17,7 @@ export const Questions = [
         optionD: "New Zealand",
         answer: "a",
         hint: "+243. I know that's enough.",
-        img: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg"
+        img: "https://s24195.pcdn.co/wp-content/uploads/2017/12/Cover-photo-Mr-Robot.jpg"
     },
     {
         question: "Why was the Mr Robot personality created?",
@@ -47,7 +47,7 @@ export const Questions = [
         optionD: "At a CERN facility in Switzerland",
         answer: "a",
         hint: "This place caused Elliot’s and his deceased best friend/secret love of his life, Angela Moss’s, parents to die of cancer.",
-        img: "https://25yearslatersite.com/wp-content/uploads/2019/12/mr-robot-power-plant-e1576562479634.jpg"
+        img: "https://i2.wp.com/timetravelnexus.com/wp-content/uploads/2019/12/Dec-2019-MrRobot-WashTownship.png"
     },
     {
         question: "Who was in the room with Angela before Whiterose came in?",
@@ -66,8 +66,8 @@ export const Questions = [
         optionC: "He saw Mr Robot and thought he wanted to hurt him",
         optionD: "He tripped while trying to escape his mother",
         answer: "b",
-        hint: "Friend. This is pretty easy question. I would be ashamed if you need help. :)",
-        img: "https://external-preview.redd.it/pxLCafghOfyr2qwDTyIYCQc7gkVfiT7vjnIacz40mmI.jpg?auto=webp&s=b0ee27927179819bd1449f3e89c7c58c3246f40b"
+        hint: "Friend. This is pretty easy question. I would be ashamed if you need help.",
+        img: "https://i.imgur.com/hCktCz8.jpeg"
     },
     {
         question: "What was the biggest consequence of the 5/9 hack?",
@@ -87,7 +87,7 @@ export const Questions = [
         optionD: "Coney Island",
         answer: "b",
         hint: "You should inspect this more.",
-        img: "https://southerngirlentertainmentblog.files.wordpress.com/2019/11/elliot-and-little-elliot-at-the-queens-museum-alt.jpg?w=739"
+        img: "https://i.pinimg.com/originals/7c/3b/47/7c3b476d41ee54cf320df9990453c807.jpg"
     },
     {
         question: "Which rapper has guest starred on the show?",
@@ -107,7 +107,7 @@ export const Questions = [
         optionD: "Vegetable carpaccio",
         answer: "c",
         hint: "Friend. Do you like to cook? You will need 10 glasses of cold water, 2 medium carrots, 2 stalks celery, 1 large onion...",
-        img: "https://i.pinimg.com/originals/c3/28/10/c32810d8b45a26c8edae38f9bbb3c26d.jpg"
+        img: "https://wallpapercave.com/wp/wp4507684.jpg"
     },
     {
         question: "What was the name of the pyro that Elliot was fascinated with in season 2?",
@@ -117,7 +117,7 @@ export const Questions = [
         optionD: "Hot Laurel",
         answer: "c",
         hint: "'At 2 p.m., we check out a basketball game. Hot _____, the local pyro, is usually there. She's become like my personal totem.'",
-        img: "https://i.redd.it/qwi8wtv2lpd21.jpg"
+        img: "https://i.imgur.com/6wc6bC1.jpg"
     },
     {
         question: "What was Elliot's favorite candy?",

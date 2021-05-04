@@ -9,9 +9,10 @@ import './App.css';
 
 const App = () => {
   const [gameState, setGameState] = useState("main");
+  const [score, setScore] = useState(0);
 
   return <div className="App">
-    <QuizContext.Provider value={{gameState, setGameState}}>
+    <QuizContext.Provider value={{gameState, setGameState, score, setScore}}>
       {gameState === "main" && <Main/>}
       {gameState === "quiz" && <Quiz/>}
       {gameState === "end" && <End/>}

@@ -4,8 +4,8 @@
     max-width: 900px;
     margin: 0 auto;
     padding-top: 10%;
-    animation: fadeIn 1.5s forwards;
-    opacity: 0;
+    /* animation: fadeIn 1.5s forwards; */
+    /* opacity: 0; */
 }
 
 .terminal-top {
@@ -35,8 +35,8 @@
     font-weight: 600;
     margin-top: 8px;
     display: flex;
-    animation: fadeIn 1s 1.3s forwards;
-    opacity: 0;
+    /* animation: fadeIn 1s 1.3s forwards; */
+    /* opacity: 0; */
 }
 
 .terminal-top .top-mid .house {
@@ -45,13 +45,13 @@
 }
 
 .last-login {
-    animation: fadeIn 1.5s 2s forwards;
-    opacity: 0;
+    /* animation: fadeIn 1.5s 2s forwards; */
+    /* opacity: 0; */
 }
 
 .terminal-msg {
-    animation: fadeIn 1.5s 3.5s forwards;
-    opacity: 0;
+    /* animation: fadeIn 1.5s 3.5s forwards; */
+    /* opacity: 0; */
 }
 
 .circle {
@@ -65,20 +65,20 @@
 
 .red {
     background-color: #FF5B52;
-    animation: fadeIn 1s 0.5s forwards;
-    opacity: 0;
+    /* animation: fadeIn 1s 0.5s forwards; */
+    /* opacity: 0; */
 }
 
 .green {
     background-color: #51C22A;
-    animation: fadeIn 1s 0.9s forwards;
-    opacity: 0;
+    /* animation: fadeIn 1s 0.9s forwards; */
+    /* opacity: 0; */
 }
 
 .yellow {
     background-color: #E6C027;
-    animation: fadeIn 1s 0.7s forwards;
-    opacity: 0;
+    /* animation: fadeIn 1s 0.7s forwards; */
+    /* opacity: 0; */
 }
 
 .terminal-prompt {
@@ -92,16 +92,44 @@
     margin-top: 25px;
 }
 
+.mt-10 {
+    margin-top: 10px;
+}
+
 .terminal-text {
     display: flex;
     justify-content: start;
-    animation: fadeIn 1.5s 5s forwards;
-    opacity: 0;
+    /* animation: fadeIn 1.5s 5s forwards; */
+    /* opacity: 0; */
+}
 
+.terminal-start {
+    /* animation: fadeIn 1.5s 11s forwards !important; */
 }
 
 .pl-7 {
     padding-left: 7px;
+}
+
+.startBtn {
+    border: 1px solid #51C02A;
+    color: #51C02A;
+    background: linear-gradient(#51C02A 0 0) left / var(--d, 0%) 100% no-repeat,
+    linear-gradient(#51C02A 0 0) right / var(--d, 0%) 100% no-repeat;
+    transition: 0.7s;
+    margin-left: 7px;
+    border-radius: 10px;
+    padding: 3px 8px;
+    cursor: pointer;
+}
+
+.startBtn:disabled {
+    opacity: 0.5;
+}
+
+.startBtn:hover:not([disabled]) {
+    color: white;
+    --d: 100%;
 }
 
 @keyframes fadeIn {
@@ -115,10 +143,10 @@
     overflow: hidden;
     border-right: .15em solid orange;
     white-space: nowrap;
-    width: 0;
-    animation:
+    /* width: 0; */
+    /* animation:
         typing 3.5s 6s steps(40, end) forwards,
-        blink-caret .75s step-end infinite;
+        blink-caret .75s step-end infinite; */
 
 }
 

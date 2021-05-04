@@ -9,13 +9,17 @@
 }
 
 .optionBtn:active {
-    background: #E6C027;
-    color: white !important;
+    background: #E6C027 !important;
+    color: #1E1E1E !important;
 }
 
 .optionBtn:focus {
-    background: #E6C027;
-    color: white;
+    background: #E6C027 !important;
+    color: #1E1E1E !important;
+}
+
+.queens {
+    display: none;
 }
 
 .giveUpBtn {

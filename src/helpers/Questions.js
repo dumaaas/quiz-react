@@ -6,7 +6,8 @@ export const Questions = [
         optionC: "Dark Order",
         optionD: "Army of Darkness",
         answer: "a",
-        hint: "Friend. This is pretty easy question. I would be ashamed if you need help. :)"
+        hint: "Friend. If you don't know the most popular hacker group, what do you know?",
+        img: "https://c1.staticflickr.com/9/8270/29962849562_5db94879c5_b.jpg"
     },
     {
         question: "Where was Whiterose trying to get her project shipped to?",
@@ -15,7 +16,8 @@ export const Questions = [
         optionC: "United Arab Emirates",
         optionD: "New Zealand",
         answer: "a",
-        hint: "Friend. This is pretty easy question. I would be ashamed if you need help. :)"
+        hint: "+243. I know that's enough.",
+        img: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg"
     },
     {
         question: "Why was the Mr Robot personality created?",
@@ -24,7 +26,8 @@ export const Questions = [
         optionC: "Elliot's father beat him",
         optionD: "Elliot's father hated him",
         answer: "a",
-        hint: "Friend. This is pretty easy question. I would be ashamed if you need help. :)"
+        hint: "No hints for easy questions.",
+        img: "https://variety.com/wp-content/uploads/2015/08/mr-robot-finale-tv-review-usa.jpg?w=1000"
     },
     {
         question: "'Isn't it obvious? You're not Elliot. You're the M-'",
@@ -33,7 +36,8 @@ export const Questions = [
         optionC: "Mistake",
         optionD: "Mentor",
         answer: "a",
-        hint: "Friend. This is pretty easy question. I would be ashamed if you need help. :)"
+        hint: "Do you like board games?",
+        img: "https://www.seriangolo.it/wp-content/uploads/2015/07/vlcsnap-2015-07-22-11h01m59s155.jpg"
     },
     {
         question: "Where was Whiterose's project located?",
@@ -42,7 +46,8 @@ export const Questions = [
         optionC: "In a secretive facility in the Congo",
         optionD: "At a CERN facility in Switzerland",
         answer: "a",
-        hint: "Friend. This is pretty easy question. I would be ashamed if you need help. :)"
+        hint: "This place caused Elliot’s and his deceased best friend/secret love of his life, Angela Moss’s, parents to die of cancer.",
+        img: "https://25yearslatersite.com/wp-content/uploads/2019/12/mr-robot-power-plant-e1576562479634.jpg"
     },
     {
         question: "Who was in the room with Angela before Whiterose came in?",
@@ -51,7 +56,8 @@ export const Questions = [
         optionC: "Her younger sister",
         optionD: "A child Elliot",
         answer: "b",
-        hint: "Friend. This is pretty easy question. I would be ashamed if you need help. :)"
+        hint: "Do you believe in impossible?",
+        img: "https://preview.redd.it/s5ssj1uimbrz.png?auto=webp&s=0c95a39b6310a785f203c60334ab9b3c4e745f0d"
     },
     {
         question: "Why did Elliot fall out of the window?",
@@ -60,7 +66,8 @@ export const Questions = [
         optionC: "He saw Mr Robot and thought he wanted to hurt him",
         optionD: "He tripped while trying to escape his mother",
         answer: "b",
-        hint: "Friend. This is pretty easy question. I would be ashamed if you need help. :)"
+        hint: "Friend. This is pretty easy question. I would be ashamed if you need help. :)",
+        img: "https://external-preview.redd.it/pxLCafghOfyr2qwDTyIYCQc7gkVfiT7vjnIacz40mmI.jpg?auto=webp&s=b0ee27927179819bd1449f3e89c7c58c3246f40b"
     },
     {
         question: "What was the biggest consequence of the 5/9 hack?",
@@ -69,7 +76,8 @@ export const Questions = [
         optionC: "3 separate terrorist attacks in Washington D.C.",
         optionD: "USA lost its footing as a global superpower",
         answer: "b",
-        hint: "Friend. This is pretty easy question. I would be ashamed if you need help. :)"
+        hint: "What do you think about cryptocurrencies?",
+        img: "https://i.vimeocdn.com/video/654926144_1280x720.jpg"
     },
     {
         question: "Where would Angela and Elliot runaway to as kids?",
@@ -78,16 +86,18 @@ export const Questions = [
         optionC: "Central Park",
         optionD: "Coney Island",
         answer: "b",
-        hint: "Friend. This is pretty easy question. I would be ashamed if you need help. :)"
+        hint: "You should inspect this more.",
+        img: "https://southerngirlentertainmentblog.files.wordpress.com/2019/11/elliot-and-little-elliot-at-the-queens-museum-alt.jpg?w=739"
     },
     {
-        question: "Why did Elliot fall out of the window?",
-        optionA: "His father was angry at him and pushed him",
-        optionB: "Mr Robot took control and jumped to escape his father",
-        optionC: "He saw Mr Robot and thought he wanted to hurt him",
-        optionD: "He tripped while trying to escape his mother",
+        question: "Which rapper has guest starred on the show?",
+        optionA: "A$AP Rocky",
+        optionB: "Joey Badass",
+        optionC: "Kendrick Lamar",
+        optionD: "Benny The Butcher",
         answer: "b",
-        hint: "Friend. This is pretty easy question. I would be ashamed if you need help. :)"
+        hint: "'Y'all went to high school, I went to school high.'",
+        img: "https://i.pinimg.com/originals/f0/70/e6/f070e6aa387fe25ca4b1936c197f7714.jpg"
     },
     {
         question: "What were Terry Colby and the other E Corp executives eating while deciding on how to handle the Washington Township Scandal?",
@@ -96,7 +106,8 @@ export const Questions = [
         optionC: "Shrimp cocktail",
         optionD: "Vegetable carpaccio",
         answer: "c",
-        hint: "Friend. This is pretty easy question. I would be ashamed if you need help. :)"
+        hint: "Friend. Do you like to cook? You will need 10 glasses of cold water, 2 medium carrots, 2 stalks celery, 1 large onion...",
+        img: "https://i.pinimg.com/originals/c3/28/10/c32810d8b45a26c8edae38f9bbb3c26d.jpg"
     },
     {
         question: "What was the name of the pyro that Elliot was fascinated with in season 2?",
@@ -105,7 +116,8 @@ export const Questions = [
         optionC: "Hot Carla",
         optionD: "Hot Laurel",
         answer: "c",
-        hint: "Friend. This is pretty easy question. I would be ashamed if you need help. :)"
+        hint: "'At 2 p.m., we check out a basketball game. Hot _____, the local pyro, is usually there. She's become like my personal totem.'",
+        img: "https://i.redd.it/qwi8wtv2lpd21.jpg"
     },
     {
         question: "What was Elliot's favorite candy?",
@@ -114,7 +126,8 @@ export const Questions = [
         optionC: "Sour Patch Kids",
         optionD: "Reese's Cups",
         answer: "c",
-        hint: "Friend. This is pretty easy question. I would be ashamed if you need help. :)"
+        hint: "I don't know why, but they are very reminiscent of Groot. Do you think the same?",
+        img: "https://i1.wp.com/junkbanter.com/wp-content/uploads/2020/05/IMG_5789-scaled.jpg"
     },
     {
         question: "What kind of car did Leon drive in season 3?",
@@ -123,7 +136,8 @@ export const Questions = [
         optionC: "Cadillac",
         optionD: "Bentley",
         answer: "c",
-        hint: "Friend. This is pretty easy question. I would be ashamed if you need help. :)"
+        hint: "These guys have famous songs in which this car appears: Bruno Mars, Train, Roseanne Cash, Karen Lawrence, Mink DeVille... ",
+        img: "https://external-preview.redd.it/0nhTPXW_fEsSday-8VqEYTbKukNoy3RxKGGFxffAyF0.png?auto=webp&s=e0f7be349f78928746514dfe28d38acc3a0429b2"
     },
     {
         question: "What was the name of Irving's novel?",
@@ -132,7 +146,8 @@ export const Questions = [
         optionC: "Beach Towel",
         optionD: "A Rose, So Sickly",
         answer: "c",
-        hint: "Friend. This is pretty easy question. I would be ashamed if you need help. :)"
+        hint: "'A story could have a mediocre beginning and middle, and oftentimes it does, but always gotta have a wow ending. Otherwise, what's the point?'",
+        img: "https://preview.redd.it/6aoq9jt72k341.jpg?width=1792&format=pjpg&auto=webp&s=d555761f4c63b72e05e01419d6d3e2ab0ea7f6ba"
     },
     {
         question: "What did the fsociety.dat file say?",
@@ -141,7 +156,8 @@ export const Questions = [
         optionC: "DON'T DELETE ME",
         optionD: "LEAVE ME HERE",
         answer: "d",
-        hint: "Friend. This is pretty easy question. I would be ashamed if you need help. :)"
+        hint: "Are you looking in the right places?",
+        img: "https://preview.redd.it/0zw17rx7z1541.jpg?auto=webp&s=31eac5c8e060c596ba0fdd3944857a7145b6894c"
     },
     {
         question: "Who saved Dom's family from the Dark Army?",
@@ -150,7 +166,8 @@ export const Questions = [
         optionC: "Oliver Byrne",
         optionD: "Deegan Maguire",
         answer: "d",
-        hint: "Friend. This is pretty easy question. I would be ashamed if you need help. :)"
+        hint: "If you need someone to get you a new ID and to make you disappear, you should call this man.",
+        img: "https://preview.redd.it/cdx5ayl1fhs31.png?width=682&format=png&auto=webp&s=f799fcf6b9cd47def11f7a605459729209aad8f7"
     },
     {
         question: "What position does Zhi Zhang hold in the Chinese Government?",
@@ -159,7 +176,8 @@ export const Questions = [
         optionC: "Minister of Foreign Affairs",
         optionD: "Minister of State Security",
         answer: "d",
-        hint: "Friend. This is pretty easy question. I would be ashamed if you need help. :)"
+        hint: "Guoanbu. It is enough.",
+        img: "https://decider.com/wp-content/uploads/2019/10/mr-robot-forbidden-bd-wong.jpg?quality=80&strip=all"
     },
     {
         question: "What drug did Elliot overdose on in season 2?",
@@ -168,7 +186,9 @@ export const Questions = [
         optionC: "Suboxone",
         optionD: "Adderall",
         answer: "d",
-        hint: "Friend. This is pretty easy question. I would be ashamed if you need help. :)"
+        hint: "Drugs are bad.",
+        img: "https://thecomeback.com/wp-content/uploads/2016/07/elliot_ep2.jpg",
+        
     },
     {
         question: "What music video is playing on the TV in the flashback with Whiterose and her lover?",
@@ -177,7 +197,8 @@ export const Questions = [
         optionC: "If I Could Turn Back Time - Cher",
         optionD: "Time (Clock of the Heart) - Creature Club",
         answer: "d",
-        hint: "Friend. This is pretty easy question. I would be ashamed if you need help. :)"
+        hint: "this is a Difficult one. but you shoulD think a little more. Definitely.",
+        img: "https://preview.redd.it/wjmbgfd9cmu31.png?auto=webp&s=9bf96f0e6d62eb5a55b123076011fbb4a77b65c7"
     },
 
 ]

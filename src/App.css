@@ -3,6 +3,10 @@
   width: 100%;
   height: 100vh;
   font-family: monospace;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  animation: shrink 5s infinite alternate;
 }
 
 p {

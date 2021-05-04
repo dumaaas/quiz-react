@@ -9,7 +9,7 @@ import './App.css';
 
 const App = () => {
 
-  const [counter, setCounter] = useState(60);
+  const [counter, setCounter] = useState(240);
   const [questions, setQuestions] = useState();
   const [gameState, setGameState] = useState("main");
   const [score, setScore] = useState(0);

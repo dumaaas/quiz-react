@@ -65,8 +65,10 @@ const End = () => {
                 <p className="terminal-prompt terminal-msg"><span className="terminal-green">{d.getHours()}:{minutes} {"<"}mr. robot{">"}</span> our journey has come to an end.</p>
                 {/* Score */}
                 <p className="terminal-prompt terminal-msg"><span className="terminal-green">{d.getHours()}:{minutes} {"<"}mr. robot{">"}</span> your score: {score}/10 </p>
-                {/* Result */}
+                {/* Timer */}
                 <p className="terminal-prompt terminal-msg"><span className="terminal-green">{d.getHours()}:{minutes} {"<"}mr. robot{">"}</span> {result} </p>
+                {/* Depends on score get different message */}
+                <p className="terminal-prompt terminal-msg"><span className="terminal-green">{d.getHours()}:{minutes} {"<"}mr. robot{">"}</span> { score > 5 ? 'you are one of the biggest fans of Mr. Robot' : 'you still have to learn, then come back and try again.'} </p>
                 {/* End question */}
                 <div className="mt-25 terminal-prompt terminal-text">
                     <p className="terminal-green">root@fsociety:~/Mr_Robot/Quiz{">"}</p>

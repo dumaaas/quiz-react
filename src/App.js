@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-
 import Main from "./components/main/Main";
 import Quiz from "./components/quiz/Quiz";
 import End from "./components/end/End";
@@ -22,7 +21,6 @@ const App = () => {
       {gameState === "quiz" && <Quiz/>}
       {gameState === "end" && <End/>}
     </QuizContext.Provider>
-
   </div>
 }
 

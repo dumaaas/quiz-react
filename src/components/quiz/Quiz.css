@@ -31,14 +31,68 @@
     color: #FF5B52;
     background: linear-gradient(#FF5B52 0 0) left / var(--d, 0%) 100% no-repeat,
         linear-gradient(#FF5B52 0 0) right / var(--d, 0%) 100% no-repeat;
-    transition: 0.7s;    margin-left: 7px;
+    transition: 0.7s;
+    margin-left: 7px;
     border-radius: 10px;
     padding: 3px 8px;
     cursor: pointer;
 }
 
-
 .giveUpBtn:hover {
     color: white;
     --d: 100%;
+}
+
+.red-pulse {
+    animation: red-pulse 2s linear 1s infinite;
+}
+
+@keyframes red-pulse {
+    0% {
+        box-shadow: 0 0 8px red, inset 0 0 8px red;
+    }
+
+    50% {
+        box-shadow: 0 0 16px red, inset 0 0 14px red;
+    }
+
+    100% {
+        box-shadow: 0 0 8px red, inset 0 0 8px red;
+    }
+}
+
+.green-pulse {
+    animation: green-pulse 2s linear 1s infinite;
+}
+
+@keyframes green-pulse {
+    0% {
+        box-shadow: 0 0 8px green, inset 0 0 8px green;
+    }
+
+    50% {
+        box-shadow: 0 0 16px green, inset 0 0 14px green;
+    }
+
+    100% {
+        box-shadow: 0 0 8px green, inset 0 0 8px green;
+    }
+}
+
+.yellow-pulse {
+    animation: yellow-pulse 2s linear 1s infinite;
+}
+
+@keyframes yellow-pulse {
+    0% {
+        box-shadow: 0 0 8px yellow, inset 0 0 8px yellow;
+    }
+
+    50% {
+        box-shadow: 0 0 16px yellow, inset 0 0 14px yellow;
+    }
+
+    100% {
+        box-shadow: 0 0 8px yellow, inset 0 0 8px yellow;
+    }
 }

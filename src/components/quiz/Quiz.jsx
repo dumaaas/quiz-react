@@ -26,17 +26,27 @@ const Quiz = () => {
         minutes = d.getMinutes();
     }
 
-    //when answer is chosed - disable next question btn
-    //timer for quiz - when timer reach 0 end screen appear
     useEffect(() => {
+        //when answer is chosed - disable next question btn
         if (optionChosen === "") {
             document.getElementById('nextBtn').setAttribute("disabled", "disabled");
         } else {
             document.getElementById('nextBtn').removeAttribute("disabled", "disabled");
         }
+        //timer for quiz - when timer reach 0 end screen appear
         const timer = counter > 0 && setInterval(() => setCounter(counter - 1), 1000);
         if (timer == 0) {
             setGameState("end");
+        }
+        //add glowing effect to circle depend on counter
+        if (counter>100 && counter<=240) {
+            document.getElementById("green").classList.add("green-pulse");
+        } else if(counter>50 && counter<=100) {
+            document.getElementById("yellow").classList.add("yellow-pulse");
+            document.getElementById("green").classList.remove("green-pulse");
+        } else if(counter>=0 && counter<=50) {
+            document.getElementById("yellow").classList.remove("yellow-pulse");
+            document.getElementById("red").classList.add("red-pulse");
         }
         return () => clearInterval(timer);
     }, [counter])
@@ -126,12 +136,12 @@ const Quiz = () => {
         <div className="terminal-wrapper">
             <div className="terminal-top ">
                 <div className="top-left">
-                    <div className="red circle ">
+                    <div id="red" className="red circle ">
                     </div>
-                    <div className="yellow circle">
+                    <div id="yellow" className="yellow circle">
                     </div>
                     {/* Hint for one of the questions */}
-                    <a href="https://preview.redd.it/0zw17rx7z1541.jpg?auto=webp&s=31eac5c8e060c596ba0fdd3944857a7145b6894c" className="green circle" target="_blank">
+                    <a id="green" href="https://preview.redd.it/0zw17rx7z1541.jpg?auto=webp&s=31eac5c8e060c596ba0fdd3944857a7145b6894c" className="green circle" target="_blank">
                     </a>
                 </div>
                 <div className="top-mid">
